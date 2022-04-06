@@ -2,8 +2,6 @@ body, html{
     margin:0px;
     background-color:white;
     width:100%;
-    
-    /* grid-template-columns: 1fr 1fr; */
 
 }
 
@@ -13,13 +11,12 @@ body, html{
     background-color:black;
     padding:20px;
     margin-top:-17px;
-    /* width:100%;  */
+
 }
 
 .topnav{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    /* width:1300px; */
     
 }
 
@@ -31,7 +28,6 @@ body, html{
 }
 
 .topnav ul{
-    /* display:inline; */
     list-style:none;
     display:flex;
 
@@ -46,7 +42,6 @@ h3 {
 
     color:white;
     background-color:black;
-    /* display:inline; */
     
 }
 
@@ -67,31 +62,27 @@ h3 {
 .image_text {
     position:relative;
     text-align:center;
-    
-    /* height:100%;
-    width:100%; */
-    
 }
 
-.month{
+.month {
     margin-left:20%;
     margin-bottom:20px;
     border:0.1px solid;
     padding: 5px;
     background-color:lightgray;
     height:40px;
-    max-width: 65%;
-    
-    
+    max-width: 65%;  
+
+}
+
+.month h4 {
+    margin:0px;
+    padding-top: 1%;
+
 }
 
 .show_container{
     display:grid;
-    /* float:left; */
-    /* grid-template-columns: 1fr;
-    grid-template-rows:1fr 1fr 1fr 1fr;  */
-    /* background-color:pink; */
-    /* margin-left:340px; */
     margin-left:20%;
     max-width: 65%;
     
@@ -100,42 +91,31 @@ h3 {
 }
 
 .show_container img{
-    /* text-align:center; */
-    height: 200px;
-    width:280px;
+    
+    height: 150px;
+    width:190px;
     float:left;
     padding-right:50px;
-    margin-bottom:30px;
+    margin-top: 20px;
+    margin-bottom:10px;
     
-    /* margin-left:450px; */
+    
     
 
 }
 
-.show_container button{
+.show_container button {
     float:right;
     height:30px;
     width:90px;
     background-color:#a76d03;
     color: white;
-    
-    /* margin-right:10px; */
-    
+    margin-top:10%;
     
 }
 
-
-    /* display:grid; */
-    /* display:inline;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr; */
-
-
-
-
-.show_container p {
-    /* display:flex;
-    float:left; */
+.showtext {
+    display:inline-block;
 }
 
 li{
@@ -151,8 +131,32 @@ li{
 i {
     color:#a76d03;
 }
+
     footer {
     background-color:black;
     color: white;
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin-top:10px;
     
+}
+
+footer img{
+    padding: 4%;
+    margin-left:35%;
+}
+
+footer ul{
+    margin-left:-20%;
+    
+}
+
+footer li{
+    padding:5%;
+    
+}
+
+hr{
+    margin:0px;
+    margin-top:5px;
 }
