@@ -1,0 +1,158 @@
+body, html{
+    margin:0px;
+    background-color:white;
+    width:100%;
+    
+    /* grid-template-columns: 1fr 1fr; */
+
+}
+
+
+
+.header{
+    background-color:black;
+    padding:20px;
+    margin-top:-17px;
+    /* width:100%;  */
+}
+
+.topnav{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    /* width:1300px; */
+    
+}
+
+
+.topnav li {
+    padding:15px;
+    
+    
+}
+
+.topnav ul{
+    /* display:inline; */
+    list-style:none;
+    display:flex;
+
+}
+
+.topnav a{
+    text-decoration:none;
+    color:white;
+}
+
+h3 {
+
+    color:white;
+    background-color:black;
+    /* display:inline; */
+    
+}
+
+.image_text img{
+    width:100%;
+    height:50%;
+}
+.image_text h1{
+    color:white;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    font-size:100px;
+    transform: translate(-50%, -50%);
+    
+}
+
+.image_text {
+    position:relative;
+    text-align:center;
+    
+    /* height:100%;
+    width:100%; */
+    
+}
+
+.month{
+    margin-left:20%;
+    margin-bottom:20px;
+    border:0.1px solid;
+    padding: 5px;
+    background-color:lightgray;
+    height:40px;
+    max-width: 65%;
+    
+    
+}
+
+.show_container{
+    display:grid;
+    /* float:left; */
+    /* grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;  */
+    /* background-color:pink; */
+    /* margin-left:340px; */
+    margin-left:20%;
+    max-width: 65%;
+    
+    
+
+}
+
+.show_container img{
+    /* text-align:center; */
+    height: 200px;
+    width:280px;
+    float:left;
+    padding-right:50px;
+    margin-bottom:30px;
+    
+    /* margin-left:450px; */
+    
+
+}
+
+.show_container button{
+    float:right;
+    height:30px;
+    width:90px;
+    background-color:#a76d03;
+    color: white;
+    
+    /* margin-right:10px; */
+    
+    
+}
+
+
+    /* display:grid; */
+    /* display:inline;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr; */
+
+
+
+
+.show_container p {
+    /* display:flex;
+    float:left; */
+}
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+i {
+    color:#a76d03;
+}
+    footer {
+    background-color:black;
+    color: white;
+    
+}
